@@ -80,6 +80,15 @@ Reboot the Nook (/system directory will be mounted as read-only automatically)
 adb shell reboot
 ```
 
+## Prebuilt image
+
+English-Czech dictionary / anglicko-český slovník
+Source: [GNU/FDL anglicko-český slovník](http://slovnik.zcu.cz)
+Size: 79 MB / 214680 translations
+```
+en-cs_v0.1.zip
+```
+
 ## Sources
 Info about SQLite3 DB's and BLOBs<br/>
 http://nookdevs.com/Nook_Simple_Touch_dictionary
