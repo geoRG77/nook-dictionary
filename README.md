@@ -5,7 +5,7 @@ Create own dictionary for B&amp;N Nook Simple Touch and Nook GlowLight built-in 
 
 Tested on B&amp;N Nook Simple Touch with latest SW (1.2.1) and rooted by [NookManager](http://forum.xda-developers.com/showthread.php?t=2040351)
 
-![Nook Simple Touch with modified basewords.db](https://github.com/geoRG77/nook-dictionary/raw/master/wiki/preview.gif "Nook Simple Touch with modified basewords.db")
+![Nook Simple Touch with modified basewords.db](https://github.com/geoRG77/nook-dictionary/raw/master/wiki/preview.gif "Nook Simple Touch with modified basewords.db" =400x300)
 
 ## Input format
 
