@@ -125,4 +125,4 @@ else:
 finally:
   pass
 
-print 'Done. ' + index + ' lines converted.'
+print 'Done. ' + str(index) + ' lines converted.'
