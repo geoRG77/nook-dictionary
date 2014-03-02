@@ -6,6 +6,47 @@ Create own dictionary for B&amp;N Nook Simple Touch and Nook GlowLight built-in 
 Tested on B&amp;N Nook Simple Touch with latest SW (1.2.1) and rooted by [NookManager](http://forum.xda-developers.com/showthread.php?t=2040351)
 
 
+## Input format
+
+My goal was to convert GNU/FDL Engligh-Czech dictionary from [GNU/FDL anglicko-český slovník](http://slovnik.zcu.cz) which is using following format:
+
+```
+english word [TAB] translation [TAB] notes [TAB] extra notes [TAB] author
+```
+It should be easy to customize the script to whatever source format you need.
+
+## Output
+
+Output (basewords.db) SQLite3 DB
+```sql
+CREATE TABLE android_metadata
+(locale TEXT);
+
+INSERT INTO android_metadata VALUES('en_US');
+
+CREATE TABLE tblWords
+(_id INTEGER PRIMARY KEY AUTOINCREMENT,
+ term TEXT,
+ description BLOB);
+
+CREATE INDEX term_index on tblWords (term ASC);
+```
+
+with following BLOB (zipped HTML description)
+```HTML
+<div class="entry">
+  <sup>6</sup><b><span class="searchterm-headword">a</span></b><br/>
+  <i>abbreviation</i> 
+  <div class="definitions">
+    <b>1</b> absent <br/>
+    <b>2</b> acceleration <br/>
+    <b>3</b> acre <br/>
+    <b>4</b> adult <br/>
+    [...]
+  </div>
+</div>
+```
+
 ## Usage
 
 Convert dictionary to Nook format
