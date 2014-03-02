@@ -1,7 +1,7 @@
 nook-dictionary
 ===============
 
-# Create own dictionary for B&amp;N Nook Simple Touch and Nook GlowLight built-in Reader app
+#### Create own dictionary for B&amp;N Nook Simple Touch and Nook GlowLight built-in Reader app
 
 Tested on B&amp;N Nook Simple Touch with latest SW (1.2.1) and rooted by [NookManager](http://forum.xda-developers.com/showthread.php?t=2040351)
 
