@@ -1,7 +1,7 @@
 nook-dictionary
 ===============
 
-Create own dictionary for B&amp;N Nook Simple Touch and Nook GlowLight built-in Reader app
+# Create own dictionary for B&amp;N Nook Simple Touch and Nook GlowLight built-in Reader app
 
 Tested on B&amp;N Nook Simple Touch with latest SW (1.2.1) and rooted by [NookManager](http://forum.xda-developers.com/showthread.php?t=2040351)
 
@@ -9,7 +9,7 @@ Tested on B&amp;N Nook Simple Touch with latest SW (1.2.1) and rooted by [NookMa
 
 ## Input format
 
-My goal was to convert GNU/FDL Engligh-Czech dictionary from [GNU/FDL anglicko-český slovník](http://slovnik.zcu.cz) which is using following format:
+My goal was to convert GNU/FDL English-Czech dictionary from [GNU/FDL anglicko-český slovník](http://slovnik.zcu.cz) which is using the following format:
 
 ```
 english word [TAB] translation [TAB] notes [TAB] extra notes [TAB] author
