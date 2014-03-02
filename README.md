@@ -82,8 +82,8 @@ adb shell reboot
 
 ## Prebuilt image
 
-English-Czech dictionary / anglicko-český slovník
-Source: [GNU/FDL anglicko-český slovník](http://slovnik.zcu.cz)
+English-Czech dictionary / anglicko-český slovník<br/>
+Source: [GNU/FDL anglicko-český slovník](http://slovnik.zcu.cz)<br/>
 Size: 79 MB / 214680 translations
 ```
 en-cs_v0.1.zip
