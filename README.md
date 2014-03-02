@@ -5,6 +5,7 @@ Create own dictionary for B&amp;N Nook Simple Touch and Nook GlowLight built-in 
 
 Tested on B&amp;N Nook Simple Touch with latest SW (1.2.1) and rooted by [NookManager](http://forum.xda-developers.com/showthread.php?t=2040351)
 
+![Nook Simple Touch with modified basewords.db](https://github.com/geoRG77/nook-dictionary/raw/master/wiki/preview.gif "Nook Simple Touch with modified basewords.db")
 
 ## Input format
 
@@ -36,7 +37,7 @@ with following BLOB (zipped HTML description)
 ```HTML
 <div class="entry">
   <sup>6</sup><b><span class="searchterm-headword">a</span></b><br/>
-  <i>abbreviation</i> 
+  <i>abbreviation</i>
   <div class="definitions">
     <b>1</b> absent <br/>
     <b>2</b> acceleration <br/>
